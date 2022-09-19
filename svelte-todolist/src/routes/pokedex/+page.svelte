@@ -4,9 +4,7 @@
 </svelte:head>
 
 <script>
-
     import {pokedex} from "./store.js";
-
 
     console.log($pokedex)
 </script>
