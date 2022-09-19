@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/svelte-todolist/sprites" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/svelte-todolist/static/images/pokemon/sprites" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/svelte-todolist/static/sprites" vcs="Git" />
   </component>
 </project>
