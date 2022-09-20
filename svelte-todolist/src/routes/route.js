@@ -9,7 +9,7 @@ export const routes = [
       uri: '/todos',
       name: 'Todos'
     },{
-      uri: '/pokedex',
+      uri: '/pokedex/index',
       name: 'Pokedex'
     },
 ];
