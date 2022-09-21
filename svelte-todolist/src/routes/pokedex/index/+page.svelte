@@ -12,23 +12,36 @@
 </script>
 
 <pokedexLayout>
-    <div class="pokedex__screen__container">
-        {#each $pokedexStore as pokemon, index (pokemon.name)}
-            <Card name={pokemon.name} imageUri={`/images/pokemon/sprites/sprites/pokemon/${index + 1}.png`}
-                  uri={pokemon.url}>
-                <svelte:fragment></svelte:fragment>
-            </Card>
-        {/each}
-    </div>
+    <section class="pokedex__screen">
+        <div class="pokedex__screen__container">
+            {#each $pokedexStore as pokemon, index (pokemon.name)}
+                <Card name={pokemon.name} imageUri={`/images/pokemon/sprites/sprites/pokemon/${index + 1}.png`}
+                      uri={pokemon.url}>
+                    <svelte:fragment></svelte:fragment>
+                </Card>
+            {/each}
+        </div>
+    </section>
 </pokedexLayout>
 
 <style>
+    .pokedex__screen {
+        position: relative;
+        min-width: 210px;
+        width: 60vw;
+        column-gap: 30px;
+        row-gap: 40px;
+        height: 60vh;
+        overflow: scroll;
+    }
+
     .pokedex__screen__container {
         display: grid;
         gap: 15px;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         padding-right: 20px;
+        padding-top: 20px;
     }
 
     @media screen and (min-width: 550px) {

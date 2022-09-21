@@ -14,9 +14,17 @@
         justify-content: center;
         align-items: center;
         margin: 10px;
-        background-color: rgba(255,255,255, 0.6);
+        background-color: rgba(255,255,255, 0.7);
         border-radius: 5px;
         padding-bottom: 15px;
+        box-shadow: inset 0 0 0 0 white;
+        transition: 0.4s all;
+    }
+
+    .card:hover {
+        transform: translateY(-15px);
+        box-shadow: inset 0 0 0 3px white;
+        transition: 0.4s transform, 0.6s box-shadow;
     }
 
     .card__image {

@@ -1,8 +1,6 @@
-<section class="pokedex">
-    <div class="pokedex__screen">
-        <slot/>
-    </div>
-</section>
+<div class="pokedex">
+    <slot/>
+</div>
 
 <style>
     :root {
@@ -23,13 +21,5 @@
         align-items: center;
     }
 
-    .pokedex__screen {
-        position: relative;
-        min-width: 210px;
-        width: 60vw;
-        column-gap: 30px;
-        row-gap: 40px;
-        height: 60vh;
-        overflow: scroll;
-    }
+
 </style>
