@@ -25,6 +25,7 @@
 <style>
     .pokedex__screen__container {
         display: grid;
+        gap: 15px;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         padding-right: 20px;
