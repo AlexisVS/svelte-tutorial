@@ -1,0 +1,27 @@
+.home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__nav {
+    display: inline-flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 9999px;
+    min-width: 50vw;
+    padding: 15px 20px;
+}
+
+.home__nav > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+}
+
+.home__nav > a:visited {
+    color: white;
+}
