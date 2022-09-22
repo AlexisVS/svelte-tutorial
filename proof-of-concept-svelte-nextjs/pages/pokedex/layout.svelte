@@ -17,6 +17,7 @@
         min-width: 100vw;
         background-color: var(--color-pokedex-bg);
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }

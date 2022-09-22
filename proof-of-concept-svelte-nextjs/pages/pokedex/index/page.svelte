@@ -5,13 +5,14 @@
 
 <script>
     import {pokedexStore} from "./store.js";
-    import PokedexLayout from '../+layout.svelte';
+    import PokedexLayout from '../layout.svelte';
     import Card from "./Card.svelte";
 
     console.log($pokedexStore)
 </script>
 
 <PokedexLayout>
+    <h1 class="pokedex__title">Pokedex <span>Pokemon</span></h1>
     <section class="pokedex__screen">
         <div class="pokedex__screen__container">
             {#each $pokedexStore as pokemon, index (pokemon.name)}
@@ -25,6 +26,15 @@
 </PokedexLayout>
 
 <style>
+    .pokedex__title {
+        -webkit-text-stroke: 0.07em #365eaa;
+        font-size: min(10vw, 6em);
+        color: #ffcc00;
+        font-weight: 800;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
     .pokedex__screen {
         position: relative;
         min-width: 210px;
@@ -33,6 +43,8 @@
         row-gap: 40px;
         height: 60vh;
         overflow: scroll;
+        display: flex;
+        flex-direction: column;
     }
 
     .pokedex__screen__container {

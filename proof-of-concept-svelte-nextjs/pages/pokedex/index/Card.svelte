@@ -19,6 +19,7 @@
         padding-bottom: 15px;
         box-shadow: inset 0 0 0 0 white;
         transition: 0.4s all;
+        text-decoration: none;
     }
 
     .card:hover {

@@ -1,6 +1,5 @@
-import styles from "../../styles/Home.module.css";
 import Head from "next/head";
-import PokedexApp from "./index/pokedexAppIndex.js";
+import PokedexAppShow from "./pokedexAppShow.js";
 
 export default function Pokedex() {
     return (
@@ -12,7 +11,7 @@ export default function Pokedex() {
             </Head>
 
             <main>
-                <PokedexApp/>
+                <PokedexAppShow/>
             </main>
         </div>
 

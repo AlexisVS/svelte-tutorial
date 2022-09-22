@@ -1,8 +1,8 @@
 <script>
-    import {page} from '$app/stores';
+    export let id;
 
     const getPokemon = async () => {
-        let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${$page.params.id}/`);
+        let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`);
         let data = await response.json();
         if (response.ok) {
             return pokemon = data;

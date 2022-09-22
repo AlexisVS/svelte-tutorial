@@ -1,7 +1,7 @@
 import {useEffect, useRef} from "react";
-import PokedexAppComponent from './index/+page.svelte';
+import PokedexAppComponent from './page.svelte';
 
-function pokedexApp() {
+function pokedexAppIndex() {
     const pokemonAppRef = useRef();
 
     useEffect(() => {
@@ -18,4 +18,4 @@ function pokedexApp() {
     return <div ref={pokemonAppRef}></div>
 }
 
-export default pokedexApp;
+export default pokedexAppIndex;
