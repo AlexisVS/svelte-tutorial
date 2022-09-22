@@ -5,13 +5,13 @@
 
 <script>
     import {pokedexStore} from "./store.js";
-    import pokedexLayout from '../+layout.svelte';
+    import PokedexLayout from '../+layout.svelte';
     import Card from "./Card.svelte";
 
     console.log($pokedexStore)
 </script>
 
-<pokedexLayout>
+<PokedexLayout>
     <section class="pokedex__screen">
         <div class="pokedex__screen__container">
             {#each $pokedexStore as pokemon, index (pokemon.name)}
@@ -22,7 +22,7 @@
             {/each}
         </div>
     </section>
-</pokedexLayout>
+</PokedexLayout>
 
 <style>
     .pokedex__screen {
