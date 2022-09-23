@@ -1,7 +1,9 @@
 import Head from "next/head";
-import PokedexAppShow from "./pokedexAppShow.js";
+import PokedexAppShow from "./show/pokedexAppShow.js";
+
 
 export default function Pokedex() {
+
     return (
         <div>
             <Head>
@@ -11,7 +13,7 @@ export default function Pokedex() {
             </Head>
 
             <main>
-                <PokedexAppShow/>
+                <PokedexAppShow />
             </main>
         </div>
 

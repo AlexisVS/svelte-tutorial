@@ -1,8 +1,11 @@
 <script>
-    export let id;
+    import PokedexLayout from '../layout.svelte';
+
+    const URI = window.location.href;
+    const POKEMON_ID = URI.substring(URI.length - 1);
 
     const getPokemon = async () => {
-        let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`);
+        let response = await fetch(`https://pokeapi.co/api/v2/pokemon/${POKEMON_ID}/`);
         let data = await response.json();
         if (response.ok) {
             return pokemon = data;
@@ -22,42 +25,39 @@
         return `rgb(${red}, ${green}, ${blue})`;
     }
 
-    console.log(randomColor())
-    setTimeout(() => {
-        console.log(pokemon)
-    }, 3000);
-
 </script>
 
-{#await pokemon}
-    <strong>Wait ...</strong>
-{:then pokemon}
-    <section class="pokemon">
-        <div class="pokemon__image">
-            <img alt={'Pokemon: ' + pokemon.forms[0].name}
-                 src={pokemon.sprites.other['official-artwork'].front_default}>
-        </div>
-        <div class="pokemon__details">
-            <h1 class="pokemon__details__name">{pokemon.forms[0].name}</h1>
-            <div class="pokemon__details__type">
-                <h2 class="pokemon__details__type__title">Types:</h2>
-                <div class="pokemon__details__type__item">
-                    {#each pokemon.types as item (item.type.name)}
-                        <span style="background-color: {randomColor()}">{item.type.name}</span>
-                    {/each}
+<PokedexLayout>
+    {#await pokemon}
+        <strong>Wait ...</strong>
+    {:then pokemon}
+        <section class="pokemon">
+            <div class="pokemon__image">
+                <img alt={'Pokemon: ' + pokemon.forms[0].name}
+                     src={pokemon.sprites.other['official-artwork'].front_default}>
+            </div>
+            <div class="pokemon__details">
+                <h1 class="pokemon__details__name">{pokemon.forms[0].name}</h1>
+                <div class="pokemon__details__type">
+                    <h2 class="pokemon__details__type__title">Types:</h2>
+                    <div class="pokemon__details__type__item">
+                        {#each pokemon.types as item (item.type.name)}
+                            <span style="background-color: {randomColor()}">{item.type.name}</span>
+                        {/each}
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="pokemon__details__base-stats">
-            {#each pokemon.stats as item (item.stat.name)}
-                <div class="pokemon__details__base-stats__item">
-                    <span class="pokemon__details__base-stats__item__label">{item.stat.name}: </span>
-                    <span class="pokemon__details__base-stats__item__value">{item.base_stat}</span>
-                </div>
-            {/each}
-        </div>
-    </section>
-{/await}
+            <div class="pokemon__base-stats">
+                {#each pokemon.stats as item (item.stat.name)}
+                    <div class="pokemon__base-stats__item">
+                        <span class="pokemon__base-stats__item__label">{item.stat.name}: </span>
+                        <span class="pokemon__base-stats__item__value">{item.base_stat}</span>
+                    </div>
+                {/each}
+            </div>
+        </section>
+    {/await}
+</PokedexLayout>
 
 <style>
     :root {
@@ -85,6 +85,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        order: 2;
     }
 
     .pokemon__image > img {
@@ -96,12 +97,15 @@
     .pokemon__details {
         padding: 0 20px 0 20px;
         box-sizing: border-box;
+        order: 1;
     }
 
     .pokemon__details__name {
         font-size: 3em;
         text-transform: capitalize;
         margin-bottom: 0;
+        color: var(--color-pokedex-text);
+        text-align: center;
     }
 
     .pokemon__details__type {
@@ -139,16 +143,17 @@
         text-transform: capitalize;
     }
 
-    .pokemon__details__base-stats {
+    .pokemon__base-stats {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
         padding: 10px 0;
+        order: 3;
     }
 
-    .pokemon__details__base-stats__item {
+    .pokemon__base-stats__item {
         padding: 10px 20px;
         border-radius: 99999px;
         background-color: white;
@@ -158,11 +163,11 @@
         color: var(--color-pokedex-text);
     }
 
-    .pokemon__details__base-stats__item__label {
+    .pokemon__base-stats__item__label {
         text-transform: uppercase;
     }
 
-    .pokemon__details__base-stats__item__value {
+    .pokemon__base-stats__item__value {
         font-weight: 800;
     }
 
@@ -173,12 +178,22 @@
             margin-top: 0;
         }
 
+        .pokemon__image {
+            order: 1;
+        }
+
+        .pokemon__details {
+            order: 2;
+        }
+
+
         .pokemon__details__type {
             margin-top: 50px;
         }
 
-        .pokemon__details__base-stats {
+        .pokemon__base-stats {
             grid-column: 1 / 3;
+            order: 3;
         }
     }
 </style>
