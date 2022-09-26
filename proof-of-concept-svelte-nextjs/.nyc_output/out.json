@@ -1,0 +1,774 @@
+{
+  "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\_app.js": {
+    "path": "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\_app.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": 37
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MyApp",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 9
+          },
+          "end": {
+            "line": 3,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 41
+          },
+          "end": {
+            "line": 5,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3dd6e2e60b9b5887be8e36958c1380e18cccb1af"
+  },
+  "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\index.js": {
+    "path": "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 5
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Home",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 28
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 31
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {
+      "0": 4
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "47f275349c76d9ebdeedd92d09547f68678b13e0"
+  },
+  "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\index\\store.js": {
+    "path": "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\index\\store.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 8,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 21
+        },
+        "end": {
+          "line": 4,
+          "column": 87
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 17
+        },
+        "end": {
+          "line": 5,
+          "column": 38
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 18
+        },
+        "end": {
+          "line": 6,
+          "column": 30
+        }
+      },
+      "4": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 34
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 22
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 37
+        },
+        "end": {
+          "line": 11,
+          "column": 51
+        }
+      },
+      "7": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 23,
+          "column": 5
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 28
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+        }
+      },
+      "9": {
+        "start": {
+          "line": 16,
+          "column": 29
+        },
+        "end": {
+          "line": 21,
+          "column": 9
+        }
+      },
+      "10": {
+        "start": {
+          "line": 16,
+          "column": 47
+        },
+        "end": {
+          "line": 20,
+          "column": 14
+        }
+      },
+      "11": {
+        "start": {
+          "line": 17,
+          "column": 16
+        },
+        "end": {
+          "line": 19,
+          "column": 17
+        }
+      },
+      "12": {
+        "start": {
+          "line": 18,
+          "column": 20
+        },
+        "end": {
+          "line": 18,
+          "column": 35
+        }
+      },
+      "13": {
+        "start": {
+          "line": 22,
+          "column": 31
+        },
+        "end": {
+          "line": 22,
+          "column": 101
+        }
+      },
+      "14": {
+        "start": {
+          "line": 22,
+          "column": 49
+        },
+        "end": {
+          "line": 22,
+          "column": 100
+        }
+      },
+      "15": {
+        "start": {
+          "line": 22,
+          "column": 75
+        },
+        "end": {
+          "line": 22,
+          "column": 99
+        }
+      },
+      "16": {
+        "start": {
+          "line": 26,
+          "column": 28
+        },
+        "end": {
+          "line": 26,
+          "column": 46
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 19
+          },
+          "end": {
+            "line": 3,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 22
+          },
+          "end": {
+            "line": 10,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 32
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 15
+          },
+          "end": {
+            "line": 15,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 28
+          },
+          "end": {
+            "line": 15,
+            "column": 40
+          }
+        },
+        "line": 15
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 16
+          },
+          "end": {
+            "line": 16,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 29
+          },
+          "end": {
+            "line": 21,
+            "column": 9
+          }
+        },
+        "line": 16
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 36
+          },
+          "end": {
+            "line": 16,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 47
+          },
+          "end": {
+            "line": 20,
+            "column": 14
+          }
+        },
+        "line": 16
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 63
+          },
+          "end": {
+            "line": 16,
+            "column": 64
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 83
+          },
+          "end": {
+            "line": 20,
+            "column": 13
+          }
+        },
+        "line": 16
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 16
+          },
+          "end": {
+            "line": 22,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 31
+          },
+          "end": {
+            "line": 22,
+            "column": 101
+          }
+        },
+        "line": 22
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 38
+          },
+          "end": {
+            "line": 22,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 49
+          },
+          "end": {
+            "line": 22,
+            "column": 100
+          }
+        },
+        "line": 22
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 64
+          },
+          "end": {
+            "line": 22,
+            "column": 65
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 75
+          },
+          "end": {
+            "line": 22,
+            "column": 99
+          }
+        },
+        "line": 22
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 16
+          },
+          "end": {
+            "line": 19,
+            "column": 17
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 16
+            },
+            "end": {
+              "line": 19,
+              "column": 17
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 17
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 2,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 2
+    },
+    "f": {
+      "0": 2,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "088441ecee4ed61d3cd33869944e4b02e29d5dca"
+  },
+  "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\show\\pokedexAppShow.js": {
+    "path": "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\show\\pokedexAppShow.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 30
+        },
+        "end": {
+          "line": 5,
+          "column": 38
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 28
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 26
+        },
+        "end": {
+          "line": 10,
+          "column": 10
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 14,
+          "column": 9
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 12
+        },
+        "end": {
+          "line": 13,
+          "column": 33
+        }
+      },
+      "5": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 46
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "pokedexAppShow",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 9
+          },
+          "end": {
+            "line": 4,
+            "column": 23
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 26
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 20
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 15
+          },
+          "end": {
+            "line": 12,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 21
+          },
+          "end": {
+            "line": 14,
+            "column": 9
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "d115816fbcb5f7642489699172ff3b5e88a5f6c0"
+  },
+  "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\[id].js": {
+    "path": "C:\\laragon\\www\\svelte-tutorial\\proof-of-concept-svelte-nextjs\\pages\\pokedex\\[id].js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Pokedex",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 24
+          },
+          "end": {
+            "line": 5,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 34
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 5
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "95794585dde3f7dcc415b36e77753b54d834a28a"
+  }
+}
